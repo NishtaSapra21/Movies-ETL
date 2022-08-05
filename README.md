@@ -1,4 +1,4 @@
-# Movies - Extract Transform Load
+# Movies 🎥 - Extract Transform Load
 
 ## Purpose
 
@@ -15,7 +15,7 @@ This analysis divided in four parts. Let’s have a look of each part.
     * Open Wikipedia JSON file and convert JSON data into raw data and store that data into Pandas DataFrame.
     * Function returns three DataFrames that saves to appropriate DataFrames by calling the function.
 
-2.	__Extract and Transform the Wikipedia Data__
+2.	__Extract and Transform the Wikipedia Data__ 
 
     *  Define a function that __cleans__ the wiki movie objects by making a list of alternative titles and looping through that list, if current key-value pair exists        in the movie object, remove the key value pair and add to the alternative titles. 
     * Using function delated in previously read the __three  data files__. 
